@@ -1,4 +1,4 @@
-# H&O Magento 2 Advanced Template Hints module
+# H&O Magento 2 Advanced Template Hints module - with PHPStorm relative paths
 
 ![Overview $0](docs/total-workings.gif)
 
