@@ -1,6 +1,6 @@
 # H&O Magento 2 Advanced Template Hints module
 
-![Overview](docs/total-workings.gif)
+![Overview $0](docs/total-workings.gif)
 
 Ho_Templatehints extends the default Magento template hints.
 
@@ -26,9 +26,19 @@ php bin/magento module:enable Ho_Templatehints
 php bin/magento setup:upgrade
 ```
 
-### Configure PHPStorm, allow remote calls
+### PHPStorm Integration
+
+#### Configure PHPStorm, allow remote calls
 
 ![Setting up PHPStorm](docs/phpstorm-config.png)
+
+#### Tweak Magento configuration as you wish
+
+If you're running Magento with Vagrant or Docker, you're likely to wish to map the paths
+between your web server and your actual host where the files sit so you can open the right
+file with PHPStorm directly from the console.
+
+![Tweak Magento config](docs/phpstorm-integration.png)
 
 ## Usage
 1. Set your Magento 2 installation to developer mode (when in production mode make sure to add your IP-address in Developer Client Restrictions).
